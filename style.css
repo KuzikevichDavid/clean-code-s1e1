@@ -42,6 +42,8 @@ body {
 
 .task-row-wrapper {
   display: flex;
+  border-bottom: none;
+  padding-top: 0;
 }
 
 ul {
@@ -103,9 +105,10 @@ input[type="text"]:focus {
 }
 
 /* New Task */
+.add-item,
 label[for="new-task"] {
   display: block;
-  margin: 0 0 20px;
+  margin: 16px 0 20px;
 }
 
 input#new-task {
